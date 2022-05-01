@@ -4,10 +4,10 @@
 ### ABAP CODING GUIDE FOR NEWBIES – Für eine bessere Laufzeit
 ## Inhaltsverzeichnis
 1. [General Info](#general-info)
-2. [Datenbank](#technologies)
-3. [Interne Tabellen](#installation)
-4. [Quellenverzeichnis](#collaboration)
-5. [Literaturverzeichnis](#faqs)
+2. [Datenbank](#die-datenbank)
+3. [Interne Tabellen](#interne-tabellen)
+4. [Quellenverzeichnis](#quellenverzeichnis)
+5. [Literaturverzeichnis](#literaturverzeichnis)
 
 
 
@@ -80,7 +80,7 @@ Eine kurze Zusammenfassung dieses Abschnittes für eine optimale Laufzeit mithil
 - Benutzung von Aggregatsfunktionen, damit weniger Daten übertragen werden müssen
 - Benutzung von JOINS/FOR ALL ENTRIES anstatt verschachtelten SELECT-Abfragen
 
-### 3. Interne Tabellen
+### Interne Tabellen
 In diesem Abschnitt geht es um die internen Tabellen, worauf man achten und welche man verwenden sollte, um eine bessere Laufzeit zu erreichen. Das Hauptaugenmerk liegt auf der HASHED- sowie SORTED-Tabelle, da sie die besseren Laufzeiten bieten, als die STANDARD Tabelle.s
 
 | Wichtige ABAP Begriffe kurz erklärt |
